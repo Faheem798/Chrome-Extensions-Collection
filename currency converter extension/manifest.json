@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Currency Converter",
+    "version": "1.0",
+    "description": "Convert currencies in your browser!",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html"
+
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["script.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  

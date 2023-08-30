@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <nav>
+        <span class="logo">CurrencyConverter
+        </span>
+    </nav>
+    <div class="container">
+        <form action="/action.php" method="get">
+            <br>
+            <h1>Convert Currency</h1>
+            <label for="choose-currency">choose currency</label>
+            <select name="Contry">
+                <option selected="selected" value="dollar">USD</option>
+                <option value="Euro">EUR</option>
+                <option value="pakistani rupee">PKR</option>
+            </select><br />
+            <input type="number" name="quality" min="1" max="10">
+            <br><button class="btn">Convert</button>
+
+        </form>
+        <div class="output"><table>
+            <caption><strong>Result </strong></caption>
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+                <tr>
+        </table></div>
+    </div>
+    <footer>
+        Copyright &copy; All Copyrights are reserved.
+    </footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>

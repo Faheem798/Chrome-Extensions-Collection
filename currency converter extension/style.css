@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(199, 180, 216);
+    padding: 23px;
+}
+
+body {
+    background-color: bisque;
+
+}
+
+.container {
+    min-height: 100vh;
+    background-color: aqua;
+    margin: auto;
+
+}
+
+footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    margin: 0px 30px;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+span.logo {
+    text-align: center;
+    text-align: center;
+    font-size: 53px;
+    background-color: coral;
+    margin: 6px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(22, 18, 18);
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(142, 119, 243);
+    transition: all;
+    transition-delay: 133ms;
+}
+
+.container h1 {
+    align-items: center;
+    color: rgb(117, 0, 226);
+    text-shadow: none;
+
+}
+
+.container form {
+    display: flex;
+    text-align: center;
+    margin: 33px;
+    flex-direction: column;
+}
+
+.container {
+    margin: 33px;
+    padding: 35px;
+}
+
+.container form input[type="number"],select,label{
+    background-color: rgb(208, 237, 245);
+    margin: 33px;
+    font-size: 25px;
+
+    
+
+
+}
+.container form label{
+    margin-top: 1;
+    color: rgb(19, 37, 204);
+    background-color: rgb(100, 230, 240);
+}
+
+.btn {
+    margin-top: 22px;
+    width: 110px;
+    height: 50px;
+    background-color: #008a91;
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins';
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+}
+.output table{
+    text-align: center;
+padding: 0;
+width: 55vw;
+border: 3px solid rgb(17, 17, 17);
+font-size: 20px;
+}
+.output{
+    display: none;
+}
